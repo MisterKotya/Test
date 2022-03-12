@@ -345,23 +345,30 @@ html {
     width: 1219px;
     padding: 0 55px;
   }
+  .header {
+    position: 
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .header_wrapper {
+    background: #007765;
+    height: 84px;
+  }
  .main-menu {
-   height: 84px;
-   background: #007765;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-   align-items: center;
-   z-index: 1000;
-   
+  display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: space-around;
  } 
- .logo {
-   
-   
+ .logo{
+   padding-top: 10px;
+   padding-bottom: 18.96px;
  }
  .main-items{
-   
-
+  padding-top: 28px;
+  padding-bottom: 26px;
  }
  .main-items li{
    display: inline;
