@@ -341,9 +341,6 @@ html {
   [hidden] {
     display: none;
   }
-  header {
-
-  }
   .container {
     width: 1219px;
     padding: 0 55px;
@@ -352,6 +349,7 @@ html {
    height: 84px;
    background: #007765;
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-evenly;
    align-items: center;
    z-index: 1000;
@@ -366,11 +364,18 @@ html {
 
  }
  .main-items li{
-   display: inline-block;
+   display: inline;
    list-style-type: none;
    margin-left: 5px;
-   border-left: 2px solid white;
-   padding: 0 2 0 4px; 
+   position: relative;
+ }
+ .main-menu li::after{
+   display: inline-block;
+   content: "";
+   border-right: 1.5px solid white;
+   height: 15px;
+   position: absolute;
+   top: 12px;
  }
  .main-items li:first-child {
   border: none;
@@ -388,4 +393,8 @@ html {
 .main-items li a:focus {
   transition-duration: 1.5s;
   color: white;
+}
+.link-item {
+  font-size: 24px;
+  line-height: 28px;
 }
