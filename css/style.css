@@ -346,9 +346,8 @@ html {
     padding: 0 55px;
   }
   .header {
-    position: 
+    position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
   }
   .header_wrapper {
@@ -365,6 +364,8 @@ html {
  .logo{
    padding-top: 10px;
    padding-bottom: 18.96px;
+   height: 45.04px;
+   width: 183.96px;
  }
  .main-items{
   padding-top: 28px;
@@ -373,16 +374,17 @@ html {
  .main-items li{
    display: inline;
    list-style-type: none;
-   margin-left: 5px;
+   margin-left: 10px;
    position: relative;
  }
  .main-menu li::after{
    display: inline-block;
    content: "";
-   border-right: 1.5px solid white;
-   height: 15px;
+   border-right: 1.7px solid white;
+   height: 29px;
    position: absolute;
-   top: 12px;
+   top: 3px;
+   margin-left: 7px;
  }
  .main-items li:first-child {
   border: none;
