@@ -15,7 +15,7 @@ html {
    */
   
   body {
-    margin: 0;
+    margin:0 auto;
   }
   
   /**
@@ -341,7 +341,7 @@ html {
   [hidden] {
     display: none;
   }
-  .container {
+  ./container {
     width: 1219px;
     padding: 0 55px;
   }
@@ -406,4 +406,83 @@ html {
 .link-item {
   font-size: 24px;
   line-height: 28px;
+}
+.section1_pic {
+  padding-top: 160px;
+  background: url(../img/png/image.png);
+  width: 1519px;
+  height: 403px;
+  top: 84px;
+  background-size: cover;
+  
+}
+.title {
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  color: white;
+  max-width: 1219px;
+  margin-bottom: 160px;
+  padding: 60px 500px;
+}
+.section2_pic {
+  background: url(../img/png/The\ Problem.png);
+  width: 1519px;
+  height: 733px;
+  top: 487px;
+  background-size: cover;
+}
+.title_the_problem {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  max-width: 1107px;
+  color: #007765;
+  padding: 60px 590px;
+}
+.text_subtitle {
+  max-width: 1110px;
+  height: 488px;
+  margin: 6px 200px 200px 201px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.section3_pic {
+  background: url(../img/png/image1.png);
+  width: 1519px;
+  height: 483px;
+  background-size: cover;
+}
+.text_subtitle2 {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  padding: 128px 359px 127px 359px;
+}
+.section4_pic {
+  background: url(../img/png/PPC\ bg.png);
+  width: 1519px;
+  height: 483px;
+  background-size: cover;
+  background:yellowgreen;
+}
+.title_introducing{
+  color: #007765;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+}
+.text_subtitle3 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px; 
 }
