@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    bottom: 0;
 }
 html {
     line-height: 1.15; /* 1 */
@@ -341,7 +342,7 @@ html {
   [hidden] {
     display: none;
   }
-  ./container {
+  .wrapper {
     width: 1219px;
     padding: 0 55px;
   }
@@ -467,12 +468,17 @@ html {
   text-align: center;
   padding: 128px 359px 127px 359px;
 }
-.section4_pic {
+.section4 {
   background: url(../img/png/PPC\ bg.png);
   width: 1519px;
   height: 483px;
   background-size: cover;
-  background:yellowgreen;
+  background:#FFFFFF;
+}
+.intro-logo {
+  transform: translate(170px, 241px);
+  padding-right: 18px;
+  padding-left: 30px;
 }
 .title_introducing{
   color: #007765;
@@ -480,9 +486,30 @@ html {
   font-size: 64px;
   line-height: 75px;
   text-align: center;
+  padding-top: 18px;
+  padding-bottom: 16px;
+  padding-left:  180px;
 }
-.text_subtitle3 {
+.section4__wrapper__descr-text1 {
   font-weight: 400;
   font-size: 32px;
   line-height: 38px; 
 }
+.section4__wrapper-descr1 {
+ 
+}
+.section4__wrapper-descr2 {
+   padding-bottom: 150px;
+   padding-left: 200px;
+
+
+}
+.section4__wrapper__descr-text1 {
+  padding: 16px 167px 40px 350px;
+}
+.section4__wrapper__descr-text2, .section4__wrapper__descr-text3 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+}
+
