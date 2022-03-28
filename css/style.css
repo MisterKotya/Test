@@ -512,4 +512,21 @@ html {
   font-size: 32px;
   line-height: 38px;
 }
-
+.name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+}
+.name__desc {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.photo_icon {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
